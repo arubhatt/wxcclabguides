@@ -47,7 +47,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > Control Hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
-> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com](https://desktop.wxcc-us1.cisco.com){:target="_blank"}**\
 > Webex Calling app **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}**
 
@@ -59,13 +58,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 > The following video outlines the process to manage different types of users to the Customer tenant. Following the steps, you will add new users and set the Calling extension. While adding the user, we will see how to select user roles. 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/0p37TL5wtCY?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-| **User Role** | **User email**      | **User Extension**                   |
-| ----------- | ----------------- | -------------------------------- |
-| Agent        | agent1_\<ID\>@mailinator.com   | 1XXX |
-| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2XXX |
-
-> **NOTE:** Your \<IDs\> was provided through the email in the **"Attendee ID"** line. It's based on the first letter of your name plus your surname. You can share your tenant with multiple administrators in your organization, in that case, the **ID** and the **User Ext** should be unique for each user.
 
 
 ### 1. Add an agent and a supervisor users and configure the calling extension
@@ -100,10 +92,9 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Select the supervisor user and modify his role to **_Supervisor_** by clicking the top **_Edit_** button in front of **_Services_**. Click **_Save_** to confirm the changes.
 
-- Validate the users by going to [https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"} and putting agent/supervisor email in to **_Enter Public Mailinator Inbox_** 
+- Validate the users by going to the mailbox putting agent/supervisor email in to **_Enter Public Mailinator Inbox_** 
 
 > **Note:** You do not need a password to open the inbox on mailinator. You can read any emails without mailbox credentials. Just insert agent name in the top right form and click **GO**.
-> ![Mailinator](../images/mailinator.png)
 
 - Check the email inboxes and follow the **Cisco Webex** email instructions to activate the user accounts. For the user activation, you have to set the password twice for both users.
 
@@ -129,7 +120,6 @@ In this Lab, we will go through the tasks that are required to complete the gene
 | Team1               | Team1_\<ID\>_TS |
 | Team2               | Team2_\<ID\>_TS |
 
-> **NOTE:** Multiple \<ID\> were provided in the email in the **"Attendee ID"** line. You can share your tenant with the multiple administrators in your organization, in that case the ID should be unique for each user.
 
 ### 1. Create new MultiMedia Profile
 
@@ -248,7 +238,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 > **Note:** You need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. Alternatively, if you have a US number, you can use it as an agent's extension. This tenant does not allow numbers outside of the United States. In this lab, we will use the Webex Calling app for PC or Mac for **agent** account.
 
-- Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}** by using account `agent1_<ID>@mailinator.com`.
+- Login to **[https://settings.webex.com/](https://settings.webex.com/){:target="_blank"}** by using agent account.
 
 - Click on **_Webex Calling_** this will cross launch CUP in a new browser tab.
 
@@ -258,7 +248,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Install the application on your PC/Mac.
 
-- Open Webex Calling and сlick **Sign In**. Specify the agent credentials for `agent1_<ID>@mailinator.com`.
+- Open Webex Calling and сlick **Sign In**. Specify the agent credentials.
 
 - Depending on your operation system, navigate to the Webex Callin Menu **_Edit Server Address_** and make sure you have selected **North America** region.
 
@@ -274,7 +264,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Login in the app by selecting **_Region_** as **North America**.
 
-- Set **_Email address_** and **_Password_** as the supervisor account `supervisor1_<ID>@mailinator.com`.
+- Set **_Email address_** and **_Password_** as the supervisor account.
 
 > **Note:** Make sure that you give access to the phone's microphone for the calling app.
 
@@ -285,7 +275,7 @@ In this Lab, we will go through the tasks that are required to complete the gene
 
 - Navigate to **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}** in a new browser or in incognito mode.
 
-- Enter the agent’s **email ID** `agent1_<ID>@mailinator.com` which you created in the previous lab.
+- Enter the agent’s **email ID** which you created in the previous lab.
 
 - Enter the **Password** for the appropriate Username.
 
